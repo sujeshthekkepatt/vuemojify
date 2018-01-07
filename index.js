@@ -6,7 +6,7 @@ const smiley = {
     let newUserMessage = userMessage.replace(regex, function(match) {
       switch (match) {
         case ":)":
-          return '<img alt=":)" class="_1ift _1ifu img" src="https://static.xx.fbcdn.net/images/emoji.php/v9/z6/1/32/1f642.png">';
+          return '<img alt=":)" class="_1ift _1ifu img" src="../vuemoji/blessed.png">';
           break;
         case ":(":
           return '<img alt=":(" class="_1ift _1ifu img" src="https://static.xx.fbcdn.net/images/emoji.php/v9/zdc/1/32/1f61e.png">';
