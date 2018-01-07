@@ -1,0 +1,26 @@
+{
+  "name": "vuemojify",
+  "version": "1.0.0",
+  "description": "this is a simple vue.js directive to convert the emoji symbols present in a text to actual emoji icons",
+  "main": "emojify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sujeshthekkepatt/vuemojify.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-emoji",
+    "vuemojify",
+    "emoticons",
+    "emoji"
+  ],
+  "author": "sujeshthekkepatt@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sujeshthekkepatt/vuemojify/issues"
+  },
+  "homepage": "https://gitlab.com/sujeshthekkepatt/vuemojify#README"
+}
