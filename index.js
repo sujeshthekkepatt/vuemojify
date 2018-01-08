@@ -1,15 +1,14 @@
-var path = require("path");
-console.log(__dirname + "/vuemoji");
 const smiley = {
   inserted: function(el) {
+    // console.log(__dirname / node_modules);
     let userMessage = el.innerHTML;
     let regex = /(\:[\(\)D])|([\&lt\;3]+)|(B\))|(\([yY]\))/g;
 
     let newUserMessage = userMessage.replace(regex, function(match) {
       switch (match) {
         case ":)":
-          // return '<img alt=":)" class="_1ift _1ifu img" src="https://static.xx.fbcdn.net/images/emoji.php/v9/z6/1/32/1f642.png">';
-          return '<img src="' + __dirname + "/vuemoji/1f60e.png" + '"/>';
+          return '<img alt=":)" class="_1ift _1ifu img" src="https://static.xx.fbcdn.net/images/emoji.php/v9/z6/1/32/1f642.png">';
+          // return '<img src="hai' + __dirname + "/>";
           break;
         case ":(":
           return '<img alt=":(" class="_1ift _1ifu img" src="https://static.xx.fbcdn.net/images/emoji.php/v9/zdc/1/32/1f61e.png">';
@@ -38,4 +37,4 @@ const smiley = {
     el.innerHTML = newUserMessage;
   }
 };
-// export default smiley;
+export default smiley;
