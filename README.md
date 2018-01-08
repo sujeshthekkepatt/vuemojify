@@ -1,0 +1,1 @@
+This is a simple vuejs directive that convert emoji text used on string to actual image icons. The program is under developement and will be updated soon with more feature.
