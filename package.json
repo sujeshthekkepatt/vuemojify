@@ -1,6 +1,6 @@
 {
   "name": "vuemojify",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description":
     "this is a simple vue.js directive to convert the emoji symbols present in a text to actual emoji icons",
   "main": "index.js",
